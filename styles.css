@@ -1,112 +1,151 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #333;
-    color: #ccc;
+    background: url("assets/background.jpg");
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
 }
 
-header {
-    background-color: #222;
+header, footer {
     color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.btn {
+  background-color: #03a9f4; /* Light blue to complement the color scheme */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adding a box-shadow for a 3D effect */
+  transition: box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover for depth effect */
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.self-img {
+    height: 35%;
+    width: 35%;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.MCAP {
+    height: 10%;
+    width: 10%;
+    border-radius: 20px;
+}
+
+.about-container {
+    display: flex; 
+    align-items: center;
+}
+
+.work-experience-container {
+    display: flex;
+}
+
+.experiences {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 30px;
+}
+
+.experiences img {
+    margin-right: 20px; /* Add space between the image and the text */
+}
+
+.about {
+    padding: 0px 10px 10px 10px;
+    background: white;
+    border-radius: 20px;
+}
+
+.work-experience, .projects, .extracurriculars {
+    padding: 10px 10px 10px 10px;
+    background: white;
+    border-radius: 20px;
 }
 
 main {
     padding: 20px;
 }
 
-.about-me,
-.contact,
-.projects {
-    margin-top: 40px;
+section {
+    margin-bottom: 30px;
 }
 
-.about-me h2,
-.contact h2,
-.projects h2 {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 40px;
-    color: #fff;
-}
-
-.about-me p {
-    color: #ccc;
-}
-
-.contact ul {
-    list-style: none;
-    padding: 0;
-}
-
-.contact li {
-    text-align: center;
+h2 {
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
-.contact a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
+p {
+    color: black;
+    margin-bottom: 15px;
 }
 
-.contact a:hover {
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.links {
+    text-decoration: none;
+    color: #00bcd4;
+}
+
+.links:hover {
     text-decoration: underline;
 }
 
-.project-box {
-    border: 1px solid #666;
-    padding: 15px;
-    margin-bottom: 20px;
-    background-color: #444;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.club-photos {
+    display: flex; /* Use flexbox for layout */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 0px 30px; /* Add some padding for spacing */
 }
 
-.project-box a,
-links a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
+.club-img {
+    height: 300px;
+    margin-right: 10px; /* Add some spacing between images */
+    flex-shrink: 0; /* Prevent images from shrinking */
 }
 
-.project-box a:hover,
-links a:hover {
-    text-decoration: underline;
-}
-
-.project-box p {
-    margin-top: 10px;
-    color: #ccc;
-}
-
-
-.contact-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-}
-
-.contact-info a {
-    margin-right: 30px;
-    margin-left: 30px;
-}
-
-.contact-info strong {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: 20px;
-    min-width: 60px;
-}
-
-.contact-info-content {
-    margin: 50px 50px;
-    text-align: justify;
-    line-height: 2;
-    text-justify: inter-word;
-    white-space: normal;
+.company-logo {
+    height: 175px;
+    width: 175px;
 }

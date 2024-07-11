@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" name="viewport">
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Peter Bertone</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <h1>Peter Bertone</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="work-experience.html">Work Experience</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="extracurriculars.html">Extracurriculars</a></li>
+      </ul>
+    </nav>
   </header>
   
   <main>
-    <section class="about-me" id="a">
-      <h2>About Me</h2>
-      <p class="contact-info-content">
-      Hello! My name is Peter, and I'm a Bachelor of Computing student at the University of Guelph. I'm currently completing my Major in Honours Software Engineering Co-op, and a minor in Business.
-      Throughout my academic and personal journeys, I have acquired a broad set of technical skills in languages such as C, Python, and Java. 
-      Additionally, I have used developer tools like Git/GitHub and Docker, and I am familiar with operating systems like Linux (Ubuntu) and Windows. 
-      These technical skills, along with my knowledge of project management tools such as Trello and Slack, will enable me to contribute effectively to any team I may be apart of.
-      In my academic and personal projects, I have demonstrated the ability to use these technical skills in practical applications. Please feel free to take a look at any of my projects displayed below.
-      <br>
-      <br>
-      Aside from my technical skills, my experience as a Mortgage Servicing Representative at MCAP has honed my soft skills. I have gained valuable experience in client communication, teamwork, and documentation, 
-      which I believe will be beneficial in any collaborative environment. Additionally, I take many leadership initiatives within my University education, including volunteering for the Google Developer Student Club, where I helped plan an introduction to Web Development event 
-      and assisted in the cohesiveness of the event's execution. I am also involved in the Society of Computing and Information Sciences as VP General, where I have currently planned an Introduction to Circuitry event, from start to finish; involving managing a budget, creating the event schedule, and facilitating it. 
-      My active participation in my local community shows my ambition, dedication, as well as my problem solving, and collaborative abilities.      </p>
-      <p class="contact-info">
-        <strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/peter-bertone/" class="links">LinkedIn</a> |
-        <strong>GitHub: </strong><a href="https://github.com/pbertone20/" class="links">GitHub</a> |
-        <strong>Phone: </strong>+1 (289) 700-3206 &nbsp;&nbsp;&nbsp;&nbsp;|
-        <strong>Email: </strong>pbertone@uoguelph.ca
-      </p>
-    </section>
-    <br>
-    <section class="projects" id="projects-section">
-      <h2>Projects</h2>
-    </section>
+    <div class='about-container'>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hey there! My name's Peter, and I'm a Bachelor of Computing student at the University of Guelph. I'm currently completing my Major in Honours Software Engineering Co-op, and a minor in Business.
+            I am very passionate about computing, and I love challenges! One way I’ve challenged myself this past year was to improve my local community in the School of Computer Science (SoCS). 
+            To help achieve my goal, I was the Vice President of Social Affairs in the Society of Computing and Information Science, and the Operations Manager for the Google Developer Student Club 
+            which both helped foster a better sense of community that was once lost due to COVID-19. We helped bring the students in the SoCS back together and collectively ran over 20+ events,
+            including our very own GDSCHacks hackathon which was an amazing success! GDSCHacks took months of planning and lots of preparation from the entire Google Developer Student Club team; 
+            it was such a rewarding experience. 
+            <br><br>
+            Currently, I'm completing my first co-op work term within the School of Computer Science here at the University of Guelph! I'm working under Dr. Stacey Scott as a Content Developer for one of her
+            research projects. Along with another co-op student, I'm developing a livestreaming platform using React.js, Node.js, Express.js, HTML, CSS, Firebase, and APIs provided by YouTube, and Spotify. It's
+            been an amazing learning experience, and I've grown so much as a Software Engineer. With these new skills under my belt I am excited for the future ahead!
+            </p>
+        </section>
+
+        <img src='assets/me.jpg' alt='Photo' class='self-img'/>
+    </div>
   </main>
 
-  <script src="script.js" defer></script>
+   <footer>
+    <p>Peter Bertone</p>
+    <p>
+      <strong>GitHub: </strong><a href="https://github.com/pbertone20/" class="links">GitHub</a> |
+      <strong>Linkedin: </strong><a href="https://linkedin.com/in/peter-bertone/" class="links">Linkedin</a> |
+      <strong>Phone: </strong>+1 (289) 700-3206 |
+      <strong>Email: </strong><a href="mailto:pbertone@uoguelph.ca" class="links">pbertone@uoguelph.ca</a>
+    </p>
+  </footer>
 </body>
 </html>
