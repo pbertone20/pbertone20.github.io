@@ -49,6 +49,7 @@ const Header = () => {
             <li><Link to="/work-experience">Work Experience</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><Link to="/extracurriculars">Extracurriculars</Link></li>
+            <li><Link to="/resume">Resume</Link></li>
           </ul>
         </div>
       </div>
