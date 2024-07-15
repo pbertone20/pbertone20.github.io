@@ -9,8 +9,8 @@ import SOCIS5 from '../assets/SOCIS-5.jpg';
 
 const Extracurriculars = () => {
   return (
-    <main className="p-5 bg-coffee-300 text-coffee-100">
-      <section className="extracurriculars space-y-8">
+    <main className="p-5">
+      <section className="text-box bg-secondary p-5 rounded-xl space-y-8">
         <h2 className="text-3xl font-bold mb-6">Extracurriculars</h2>
 
         <div className="mb-6">

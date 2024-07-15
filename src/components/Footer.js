@@ -6,27 +6,25 @@ import Email from "../assets/email.svg";
 
 const Footer = () => {
   return (
-    <footer className="p-5 bg-coffee-400 text-coffee-100 flex flex-col items-center justify-center">
+    <footer className="bg-primary flex flex-col items-center justify-center">
       <div>
-        <h1 className='p-4 text-xl font-bold'>Peter Bertone</h1>
+        <h1 className='p-2 text-2xl font-bold'>Peter Bertone</h1>
       </div>
-      <div className='flex flex-row items-center justify-center space-x-10'>
-          <div className='flex flex-row space-x-2 items-center'>
-            <img src={GitHubLogo} alt='GitHub' className='h-5 w-5 object-cover' />
-            <strong><a href="https://github.com/pbertone20/" className="text-coffee-100 hover:text-coffee-200 transition-colors duration-200">GitHub</a></strong>
-          </div>
-          <div className='flex flex-row space-x-2 items-center'>
-            <img src={LinkedinLogo} alt='LinkedIn' className='h-5 w-5 object-cover rounded' />
-            <strong><a href="https://linkedin.com/in/peter-bertone/" className="text-coffee-100 hover:text-coffee-200 transition-colors duration-200">LinkedIn</a></strong>
-          </div>
-          <div className='flex flex-row space-x-2 items-center'>
-            <img src={Phone} alt="Phone" className='h-5 w-5 object-cover' />
-            <strong className="text-coffee-100">+1 (289) 700-3206</strong>
-          </div>
-          <div className='flex flex-row space-x-2 items-center'>
-            <img src={Email} alt="Email" className='h-5 w-5 object-cover' />
-            <strong><a href="mailto:pbertone@uoguelph.ca" className="text-coffee-100 hover:text-coffee-200 transition-colors duration-200">pbertone@uoguelph.ca</a></strong>
-          </div>
+      <div className='mb-5 flex flex-col items-center justify-center space-y-2'>
+        <div className='flex flex-row space-x-2 items-center'>
+          <button onClick={() => window.location.href="https://github.com/pbertone20/"} className="font-bold transition ease-in-out delay-150  hover:transition-colors duration-200 hover:translate-y-1 hover:scale-110 hover:bg-secondary rounded-xl p-2 duration-300">GitHub</button>
+          <img src={GitHubLogo} alt='GitHub' className='h-5 w-5 object-cover' />
+          <button onClick={() => window.location.href="https://linkedin.com/in/peter-bertone/"} className="font-bold transition ease-in-out delay-150  hover:transition-colors duration-200 hover:translate-y-1 hover:scale-110 hover:bg-secondary rounded-xl p-2 duration-300">LinkedIn</button>
+          <img src={LinkedinLogo} alt='LinkedIn' className='h-5 w-5 object-cover rounded' />
+        </div>
+        <div className='font-bold flex flex-row space-x-2 items-center'>
+          <strong>+1 (289) 700-3206</strong>
+          <img src={Phone} alt="Phone" className='h-5 w-5 object-cover' />
+        </div>
+        <div className='flex flex-row space-x-3 items-center'>
+          <button onClick={() => window.location.href="mailto:pbertone@uoguelph.ca"} className="font-bold transition ease-in-out delay-150  hover:transition-colors duration-200 hover:translate-y-1 hover:scale-110 hover:bg-secondary rounded-xl p-2 duration-300">pbertone@uoguelph.ca</button>
+          <img src={Email} alt="Email" className='h-5 w-5 object-cover' />
+        </div>
       </div>
     </footer>
   );

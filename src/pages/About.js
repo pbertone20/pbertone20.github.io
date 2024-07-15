@@ -3,11 +3,11 @@ import me from '../assets/me.jpg';
 
 const About = () => {
   return (
-    <main className="p-5 bg-coffee-400">
-      <div className="flex flex-row items-center">
-        <section className="about text-base text-coffee-100">
+    <main className="p-3 bg-base">
+      <div className="flex flex-col items-center m-2">
+        <section className='text-box bg-secondary p-5 rounded-xl '>
           <h2 className="font-bold text-3xl mb-4">About Me</h2>
-          <p>
+          <p className='text-balance'>
             Hey there! My name's Peter, and I'm a Bachelor of Computing student at the University of Guelph. I'm currently completing my Major in Honours Software Engineering Co-op, and a minor in Business.
             I am very passionate about computing, and I love challenges! One way I’ve challenged myself this past year was to improve my local community in the School of Computer Science (SoCS). 
             To help achieve my goal, I was the Vice President of Social Affairs in the Society of Computing and Information Science, and the Operations Manager for the Google Developer Student Club 
@@ -21,7 +21,7 @@ const About = () => {
           </p>
         </section>
 
-        <img src={me} alt="Photo" className="rounded-xl h-auto max-h-80 w-auto max-w-80 ml-4" />
+        <img src={me} alt="Me" className="rounded-xl max-h-screen max-w-screen mt-4" />
       </div>
     </main>
   );
