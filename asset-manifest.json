@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa555b2a.css",
-    "main.js": "/static/js/main.470dab88.js",
+    "main.css": "/static/css/main.354bf9ca.css",
+    "main.js": "/static/js/main.d7c69d9c.js",
     "static/media/SOCIS-4.jpg": "/static/media/SOCIS-4.55cd083f4c2ee15bbf0c.jpg",
     "static/media/SOCIS-3.jpg": "/static/media/SOCIS-3.90e84b0702c4ad03fbf0.jpg",
     "static/media/SOCIS-2.jpg": "/static/media/SOCIS-2.55d0af6606e7c19d4a50.jpg",
     "static/media/SOCIS-5.jpg": "/static/media/SOCIS-5.a3b6e3d97369ae86db78.jpg",
     "static/media/GDSC-1.jpg": "/static/media/GDSC-1.7f7499dd4004495a5fd0.jpg",
     "static/media/me.jpg": "/static/media/me.45ca6c77babc9d9c691d.jpg",
-    "static/media/pbertone-resume.pdf": "/static/media/pbertone-resume.cfe5cf7712f101106fc6.pdf",
     "static/media/SOCIS-1.jpg": "/static/media/SOCIS-1.b20838e20fd88ce37c20.jpg",
     "static/media/GDSC-2.jpg": "/static/media/GDSC-2.0b460e6e5312e371461b.jpg",
     "static/media/phone.svg": "/static/media/phone.74359848220089b80029b261bd64a121.svg",
     "static/media/email.svg": "/static/media/email.2cf8522ee1c8fe6b8a5e61d04c0754a6.svg",
     "index.html": "/index.html",
-    "main.aa555b2a.css.map": "/static/css/main.aa555b2a.css.map",
-    "main.470dab88.js.map": "/static/js/main.470dab88.js.map"
+    "main.354bf9ca.css.map": "/static/css/main.354bf9ca.css.map",
+    "main.d7c69d9c.js.map": "/static/js/main.d7c69d9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa555b2a.css",
-    "static/js/main.470dab88.js"
+    "static/css/main.354bf9ca.css",
+    "static/js/main.d7c69d9c.js"
   ]
 }
