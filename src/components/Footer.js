@@ -6,7 +6,7 @@ import Email from "../assets/email.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary flex flex-col items-center justify-center">
+    <footer className="bg-purple-800 text-black flex flex-col items-center justify-center">
       <div>
         <h1 className='p-2 text-2xl font-bold'>Peter Bertone</h1>
       </div>

@@ -13,7 +13,7 @@ module.exports = {
   },
   daisyui: {
     themes: [
-      "synthwave",
+      "dracula",
     ],
   },
   plugins: [

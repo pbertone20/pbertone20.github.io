@@ -18,7 +18,7 @@ const Header = () => {
   }, [index]);
 
   return (
-    <header className="navbar p-4 bg-primary shadow-lg flex justify-between items-center">
+    <header className="navbar p-4 bg-purple-800 text-black shadow-lg flex justify-between items-center">
       <div className="navbar-start" onClick={() => { window.location.href="/" }}>
         <h2 className="header text-4xl font-bold">
           <span>{typedName}</span>

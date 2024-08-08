@@ -10,13 +10,13 @@ import SOCIS5 from '../assets/SOCIS-5.jpg';
 const Extracurriculars = () => {
   return (
     <main className="p-5">
-      <section className="text-box bg-secondary p-5 rounded-xl space-y-8">
+      <section className="text-black text-box bg-secondary p-5 rounded-xl space-y-8">
         <h2 className="text-3xl font-bold mb-6">Extracurriculars</h2>
 
         <div className="mb-6">
           <p className="text-xl font-semibold">Event Operations Manager</p>
           <p className="text-md">Google Developer Student Club<br />2023 - 2024</p>
-          <ul className="list-disc list-inside mt-2 space-y-2 bullet-list">
+          <ul className="bullet-list list-disc list-inside mt-2 space-y-2 bullet-list">
             <li>Planned the GDSCHacks hackathon; focusing on securing buildings, funding, and sponsors. 
                 The Events Team has contacted over 300+ individuals, including UofG administrative staff, external sponsors in the Guelph area, 
                 and various UofG Computing, Business, and Engineering clubs.</li>

@@ -3,7 +3,7 @@ import me from '../assets/me.jpg';
 
 const About = () => {
   return (
-    <main className="p-3 bg-base">
+    <main className="p-3 bg-base text-black">
       <div className="flex flex-col items-center m-2">
         <section className='text-box bg-secondary p-5 rounded-xl '>
           <h2 className="font-bold text-3xl mb-4">About Me</h2>

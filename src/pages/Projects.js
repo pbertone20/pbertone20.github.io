@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
   return (
     <main className="p-5">
-      <section className="text-box bg-secondary p-5 rounded-xl space-y-8">
+      <section className="text-box text-black bg-secondary p-5 rounded-xl space-y-8">
         <h2 className="text-3xl font-bold mb-6">Projects</h2>
         
         <div className="project-item mb-6">
