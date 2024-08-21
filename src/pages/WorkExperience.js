@@ -13,10 +13,10 @@ const WorkExperience = () => {
             <p className="text-xl font-semibold">Content Developer Co-op</p>
             <p className="text-md">School of Computer Science - University of Guelph<br />Jun. 2024 - Aug. 2024<br />Guelph, ON · Hybrid</p>
             <ul className="list-disc list-inside mt-2 space-y-2 bullet-list">
-              <li>Developing a music live-streaming platform for K-Pop artists using Node.js, Express.js, React.js, Firebase, and APIs from YouTube, Twitch, and Spotify.</li>
-              <li>Analyzing and implementing project requirements, focusing on creating engaging and interactive user interfaces.</li>
-              <li>Regularly documenting progress for future reference and writing weekly reports for our project manager.</li>
-              <li>Utilizing Trello’s Kanban board to manage tasks and deadlines, enhancing project efficiency and organization.</li>
+              <li>Developed a music live-streaming platform for K-Pop artists using React.js, Node.js, Tailwind CSS & DaisyUI, Firebase, and APIs from YouTube.</li>
+              <li>Analyzed and implemented project requirements, focusing on creating engaging and interactive user interfaces.</li>
+              <li>Implemented user tracking to monitor interactions and behaviors, providing data for Shan Yun Kuo's PhD research into tailored live-streaming platforms.</li>
+              <li>Utilized Trello’s Kanban board to manage tasks and deadlines, regularly documented progress for future reference.</li>
             </ul>
           </div>
           <div className='flex justify-center items-center'>

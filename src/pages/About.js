@@ -15,9 +15,9 @@ const About = () => {
             including our very own GDSCHacks hackathon which was an amazing success! GDSCHacks took months of planning and lots of preparation from the entire Google Developer Student Club team; 
             it was such a rewarding experience. 
             <br /><br />
-            Currently, I'm completing my first co-op work term within the School of Computer Science here at the University of Guelph! I'm working under Dr. Stacey Scott as a Content Developer for one of her
-            research projects. Along with another co-op student, I'm developing a livestreaming platform using React.js, Node.js, Express.js, HTML, CSS, Firebase, and APIs provided by YouTube, and Spotify. It's
-            been an amazing learning experience, and I've grown so much as a Software Engineer. With these new skills under my belt I am excited for the future ahead!
+            Currently, I'm completing my first co-op work term within the School of Computer Science here at the University of Guelph! I'm working under Dr. Stacey Scott as a Content Developer Co-op for one of her
+            research projects. Along with another co-op student, I'm developing a live-streaming platform tailored to global K-Pop fans using React.js, Node.js, Tailwind CSS & DaisyUI, Firebase, and APIs provided by 
+            YouTube. It's been an amazing learning experience, and I've grown so much as a Software Engineer. With these new skills under my belt I am excited for the future ahead!
           </p>
         </section>
 
