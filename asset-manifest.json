@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.baca4b76.css",
-    "main.js": "/static/js/main.5083c97e.js",
+    "main.css": "/static/css/main.889600ec.css",
+    "main.js": "/static/js/main.1de5d21c.js",
     "static/media/SOCIS-4.jpg": "/static/media/SOCIS-4.55cd083f4c2ee15bbf0c.jpg",
     "static/media/SOCIS-3.jpg": "/static/media/SOCIS-3.90e84b0702c4ad03fbf0.jpg",
     "static/media/SOCIS-2.jpg": "/static/media/SOCIS-2.55d0af6606e7c19d4a50.jpg",
     "static/media/SOCIS-5.jpg": "/static/media/SOCIS-5.a3b6e3d97369ae86db78.jpg",
     "static/media/GDSC-1.jpg": "/static/media/GDSC-1.7f7499dd4004495a5fd0.jpg",
     "static/media/me.jpg": "/static/media/me.45ca6c77babc9d9c691d.jpg",
+    "static/media/research-2.jpg": "/static/media/research-2.080c6f2397b57a671c67.jpg",
+    "static/media/kpop-class-diagram.png": "/static/media/kpop-class-diagram.21193a0107e2e29939e5.png",
+    "static/media/flowchart-v2.png": "/static/media/flowchart-v2.143f471b030be966593a.png",
+    "static/media/research-1.jpg": "/static/media/research-1.9412c148fa63c52b3422.jpg",
     "static/media/SOCIS-1.jpg": "/static/media/SOCIS-1.b20838e20fd88ce37c20.jpg",
     "static/media/GDSC-2.jpg": "/static/media/GDSC-2.0b460e6e5312e371461b.jpg",
     "static/media/phone.svg": "/static/media/phone.74359848220089b80029b261bd64a121.svg",
     "static/media/email.svg": "/static/media/email.2cf8522ee1c8fe6b8a5e61d04c0754a6.svg",
     "index.html": "/index.html",
-    "main.baca4b76.css.map": "/static/css/main.baca4b76.css.map",
-    "main.5083c97e.js.map": "/static/js/main.5083c97e.js.map"
+    "main.889600ec.css.map": "/static/css/main.889600ec.css.map",
+    "main.1de5d21c.js.map": "/static/js/main.1de5d21c.js.map"
   },
   "entrypoints": [
-    "static/css/main.baca4b76.css",
-    "static/js/main.5083c97e.js"
+    "static/css/main.889600ec.css",
+    "static/js/main.1de5d21c.js"
   ]
 }
