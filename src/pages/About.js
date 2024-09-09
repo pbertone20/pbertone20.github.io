@@ -4,8 +4,8 @@ import me from '../assets/me.jpg';
 const About = () => {
   return (
     <main className="p-3 bg-base text-black">
-      <div className="flex flex-col items-center m-2">
-        <section className='text-box bg-secondary p-5 rounded-xl '>
+      <div className="flex flex-col lg:flex-row items-center m-2 lg:justify-between m-2">
+        <section className='text-box bg-secondary p-5 rounded-xl lg:w-[55%] lg:mr-8'>
           <h2 className="font-bold text-3xl mb-4">About Me</h2>
           <p className='text-balance'>
             Hey there! My name's Peter, and I'm a Bachelor of Computing student at the University of Guelph. I'm currently completing my Major in Honours Software Engineering Co-op, and a minor in Business.
@@ -15,13 +15,15 @@ const About = () => {
             including our very own GDSCHacks hackathon which was an amazing success! GDSCHacks took months of planning and lots of preparation from the entire Google Developer Student Club team; 
             it was such a rewarding experience. 
             <br /><br />
-            Currently, I'm completing my first co-op work term within the School of Computer Science here at the University of Guelph! I'm working under Dr. Stacey Scott as a Content Developer Co-op for one of her
-            research projects. Along with another co-op student, I'm developing a live-streaming platform tailored to global K-Pop fans using React.js, Node.js, Tailwind CSS & DaisyUI, Firebase, and APIs provided by 
-            YouTube. It's been an amazing learning experience, and I've grown so much as a Software Engineer. With these new skills under my belt I am excited for the future ahead!
+            Currently, I'm starting my second co-op in the School of Engineering IT team here at the University of Guelph! Last semester, I completed my first co-op work term within the School of Computer Science.
+            I worked under Dr. Stacey Scott as a Content Developer Co-op for one of her PhD research projects. Along with another co-op student, I developed a live-streaming platform tailored to global K-Pop fans using 
+            React.js, Node.js, Tailwind CSS & DaisyUI, Firebase, and APIs provided by YouTube. It's been an amazing learning experience, and I've grown so much as a Software Engineer. With these new skills under my belt I am excited for the future ahead!
+            <br /><br />
+            Feel free to read my latest <a href='/#/wt1-report/' className='underline text-blue-600 hover:text-blue-800 visited:text-purple-600'>Work Term Report</a>
           </p>
         </section>
 
-        <img src={me} alt="Me" className="rounded-xl max-h-screen max-w-screen mt-4" />
+        <img src={me} alt="Me" className="rounded-xl w-full h-auto lg:w-[40%] lg:h-auto mt-4 lg:mt-0" />
       </div>
     </main>
   );
