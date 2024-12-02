@@ -6,8 +6,8 @@ const Resume = () => {
             <div className="text-black flex flex-col items-center m-2">
                 <section className='text-box bg-secondary p-5 rounded-xl'>
                     <embed
-                        src='https://drive.google.com/file/d/1YL285LoQXcZjqpY5C-QVwupZC1E-Fkr3/preview?usp=sharing'
-                        className="h-[60vh] w-[90vw]"
+                        src='https://drive.google.com/file/d/1ehIk1EClYdfVgxSBLCH5fbT1JC_dd7Od/preview?usp=sharing'
+                        className="h-[80vh] w-[90vw]"
                         title="Resume"
                     />
             </section>
