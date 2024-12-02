@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.889600ec.css",
-    "main.js": "/static/js/main.1de5d21c.js",
+    "main.css": "/static/css/main.620f5432.css",
+    "main.js": "/static/js/main.9b22f5d1.js",
     "static/media/SOCIS-4.jpg": "/static/media/SOCIS-4.55cd083f4c2ee15bbf0c.jpg",
     "static/media/SOCIS-3.jpg": "/static/media/SOCIS-3.90e84b0702c4ad03fbf0.jpg",
     "static/media/SOCIS-2.jpg": "/static/media/SOCIS-2.55d0af6606e7c19d4a50.jpg",
@@ -17,11 +17,11 @@
     "static/media/phone.svg": "/static/media/phone.74359848220089b80029b261bd64a121.svg",
     "static/media/email.svg": "/static/media/email.2cf8522ee1c8fe6b8a5e61d04c0754a6.svg",
     "index.html": "/index.html",
-    "main.889600ec.css.map": "/static/css/main.889600ec.css.map",
-    "main.1de5d21c.js.map": "/static/js/main.1de5d21c.js.map"
+    "main.620f5432.css.map": "/static/css/main.620f5432.css.map",
+    "main.9b22f5d1.js.map": "/static/js/main.9b22f5d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.889600ec.css",
-    "static/js/main.1de5d21c.js"
+    "static/css/main.620f5432.css",
+    "static/js/main.9b22f5d1.js"
   ]
 }
