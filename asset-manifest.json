@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.87835797.css",
-    "main.js": "/static/js/main.834226f3.js",
+    "main.css": "/static/css/main.a9ac2137.css",
+    "main.js": "/static/js/main.8612d92f.js",
+    "static/media/SOE-Building.png": "/static/media/SOE-Building.3fd1f8698a6db103f991.png",
     "static/media/SOCIS-4.jpg": "/static/media/SOCIS-4.55cd083f4c2ee15bbf0c.jpg",
     "static/media/SOCIS-3.jpg": "/static/media/SOCIS-3.90e84b0702c4ad03fbf0.jpg",
     "static/media/SOCIS-2.jpg": "/static/media/SOCIS-2.55d0af6606e7c19d4a50.jpg",
@@ -28,11 +29,11 @@
     "static/media/table06.svg": "/static/media/table06.42afa973df472920ce7beed8fa1c4f2a.svg",
     "static/media/table08.svg": "/static/media/table08.d6d90f77ec2605d6dbd0027599921f6f.svg",
     "index.html": "/index.html",
-    "main.87835797.css.map": "/static/css/main.87835797.css.map",
-    "main.834226f3.js.map": "/static/js/main.834226f3.js.map"
+    "main.a9ac2137.css.map": "/static/css/main.a9ac2137.css.map",
+    "main.8612d92f.js.map": "/static/js/main.8612d92f.js.map"
   },
   "entrypoints": [
-    "static/css/main.87835797.css",
-    "static/js/main.834226f3.js"
+    "static/css/main.a9ac2137.css",
+    "static/js/main.8612d92f.js"
   ]
 }
