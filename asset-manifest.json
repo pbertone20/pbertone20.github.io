@@ -1,27 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.620f5432.css",
-    "main.js": "/static/js/main.6010c737.js",
+    "main.css": "/static/css/main.87835797.css",
+    "main.js": "/static/js/main.834226f3.js",
     "static/media/SOCIS-4.jpg": "/static/media/SOCIS-4.55cd083f4c2ee15bbf0c.jpg",
     "static/media/SOCIS-3.jpg": "/static/media/SOCIS-3.90e84b0702c4ad03fbf0.jpg",
     "static/media/SOCIS-2.jpg": "/static/media/SOCIS-2.55d0af6606e7c19d4a50.jpg",
     "static/media/SOCIS-5.jpg": "/static/media/SOCIS-5.a3b6e3d97369ae86db78.jpg",
+    "static/media/Printer-02.jpg": "/static/media/Printer-02.2831c71a1101594b08f5.jpg",
+    "static/media/Nameplate-02.jpg": "/static/media/Nameplate-02.8bb12abe5ee81880a311.jpg",
     "static/media/GDSC-1.jpg": "/static/media/GDSC-1.7f7499dd4004495a5fd0.jpg",
     "static/media/me.jpg": "/static/media/me.45ca6c77babc9d9c691d.jpg",
     "static/media/research-2.jpg": "/static/media/research-2.080c6f2397b57a671c67.jpg",
     "static/media/kpop-class-diagram.png": "/static/media/kpop-class-diagram.21193a0107e2e29939e5.png",
+    "static/media/SOE-UofG.png": "/static/media/SOE-UofG.3e45f4bbb0f9a0bc157a.png",
+    "static/media/SOCS-UofG.png": "/static/media/SOCS-UofG.3d9c8b94e5689c652162.png",
     "static/media/flowchart-v2.png": "/static/media/flowchart-v2.143f471b030be966593a.png",
     "static/media/research-1.jpg": "/static/media/research-1.9412c148fa63c52b3422.jpg",
+    "static/media/Typing-Speed-Test.png": "/static/media/Typing-Speed-Test.914293939eb01433d12f.png",
     "static/media/SOCIS-1.jpg": "/static/media/SOCIS-1.b20838e20fd88ce37c20.jpg",
+    "static/media/TypingTestFinished.png": "/static/media/TypingTestFinished.4836401f8b1b4365c490.png",
     "static/media/GDSC-2.jpg": "/static/media/GDSC-2.0b460e6e5312e371461b.jpg",
     "static/media/phone.svg": "/static/media/phone.74359848220089b80029b261bd64a121.svg",
     "static/media/email.svg": "/static/media/email.2cf8522ee1c8fe6b8a5e61d04c0754a6.svg",
+    "static/media/table00.svg": "/static/media/table00.a4e8ad1156c6f07ae4d30649cada4596.svg",
+    "static/media/table10.svg": "/static/media/table10.92e3f18226d372ded110f34e5e1694b7.svg",
+    "static/media/table03.svg": "/static/media/table03.3aeea82eb9ec65fa7c39d95d9172229e.svg",
+    "static/media/table06.svg": "/static/media/table06.42afa973df472920ce7beed8fa1c4f2a.svg",
+    "static/media/table08.svg": "/static/media/table08.d6d90f77ec2605d6dbd0027599921f6f.svg",
     "index.html": "/index.html",
-    "main.620f5432.css.map": "/static/css/main.620f5432.css.map",
-    "main.6010c737.js.map": "/static/js/main.6010c737.js.map"
+    "main.87835797.css.map": "/static/css/main.87835797.css.map",
+    "main.834226f3.js.map": "/static/js/main.834226f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.620f5432.css",
-    "static/js/main.6010c737.js"
+    "static/css/main.87835797.css",
+    "static/js/main.834226f3.js"
   ]
 }
