@@ -9,19 +9,19 @@ import SOCIS5 from '../assets/SOCIS-5.jpg';
 
 const Extracurriculars = () => {
   return (
-    <main className="p-5">
-      <section className="text-black text-box bg-secondary p-5 rounded-xl space-y-8">
-        <h2 className="text-3xl font-bold mb-6">Extracurriculars</h2>
-
-        <div className="mb-6">
-          <p className="text-xl font-semibold">Event Operations Manager</p>
-          <p className="text-md">Google Developer Student Club<br />2023 - 2024</p>
-          <ul className="bullet-list list-disc list-inside mt-2 space-y-2 bullet-list">
+    <div className="container mx-auto py-16 px-4 mt-10 bg-base-200">
+      <h2 className="text-3xl font-bold mb-4 text-center">Extracurriculars</h2>
+      <div className="space-y-8">
+        <div className="bg-base-300 rounded-xl p-5">
+          <div className="flex flex-col space-y-2">
+            <p className="text-xl font-semibold">Event Operations Manager</p>
+            <p className="text-md">Google Developer Student Club<br />2023 - 2024</p>
+          </div>
+          <ul className="list-disc list-inside mt-2 space-y-2 bullet-list">
             <li>Planned the GDSCHacks hackathon; focusing on securing buildings, funding, and sponsors. 
-                The Events Team has contacted over 300+ individuals, including UofG administrative staff, external sponsors in the Guelph area, 
-                and various UofG Computing, Business, and Engineering clubs.</li>
+              Contacted over 300+ individuals, including UofG administrative staff, external sponsors in the Guelph area, and various UofG Computing, Business, and Engineering clubs.</li>
             <li>GDSCHacks had an attendance of over 200+ individuals and a budget of $15,000, co-sponsored officially by Google, GeeksforGeeks, Major League Hacking, 
-                the College of Engineering and Physical Sciences Student Council, the School of Computer Science, the School of Engineering, Ctrl V, and more.</li>
+              the College of Engineering and Physical Sciences Student Council, the School of Computer Science, the School of Engineering, Ctrl V, and more.</li>
           </ul>
           <div className="flex overflow-x-auto py-0 px-7 mt-5">
             <img src={GDSC1} alt="GDSC-1" className="h-72 mr-2.5 flex-shrink-0" />
@@ -29,14 +29,16 @@ const Extracurriculars = () => {
           </div>
         </div>
 
-        <div>
-          <p className="text-xl font-semibold">Vice President of Social Affairs</p>
-          <p className="text-md">Society of Computing and Information Sciences<br />2023 - 2024</p>
+        <div className="bg-base-300 rounded-xl p-5">
+          <div className="flex flex-col space-y-2">
+            <p className="text-xl font-semibold">Vice President of Social Affairs</p>
+            <p className="text-md">Society of Computing and Information Sciences<br />2023 - 2024</p>
+          </div>
           <ul className="list-disc list-inside mt-2 space-y-2 bullet-list">
-            <li>Played a key role in the club's success by collaborating on leadership activities and managing finances, including securing over $8,000 in funding,
-                improving our Makerspace hardware inventory, and ensuring compliance with organizational requirements for the club.</li>
+            <li>Played a key role in the club's success by collaborating on leadership activities and managing finances, including securing over $8,000 in funding, 
+              improving our Makerspace hardware inventory, and ensuring compliance with organizational requirements for the club.</li>
             <li>Delivered engaging sessions as a speaker in the Circuitry workshop series, effectively teaching students about circuitry concepts. 
-                Actively gathered feedback for continuous improvement and documented successes for future reference.</li>
+              Actively gathered feedback for continuous improvement and documented successes for future reference.</li>
           </ul>
           <div className="flex overflow-x-auto py-0 px-7 mt-5">
             <img src={SOCIS1} alt="SOCIS-1" className="h-72 mr-2.5 flex-shrink-0" />
@@ -46,8 +48,8 @@ const Extracurriculars = () => {
             <img src={SOCIS5} alt="SOCIS-5" className="h-72 mr-2.5 flex-shrink-0" />
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
   );
 };
 

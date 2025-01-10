@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import WT1Report from './pages/WT1Report';
+import WT2Report from './pages/WT2Report';
 import About from './pages/About';
 import WorkExperience from './pages/WorkExperience';
 import Projects from './pages/Projects';
@@ -14,6 +15,7 @@ const App = () => {
     <div>
       <Header/>
       <Routes>
+        <Route path="/wt2-report" element={<WT2Report />} />
         <Route path="/wt1-report" element={<WT1Report />} />
         <Route path="/" element={<About />} />
         <Route path="/work-experience" element={<WorkExperience />} />

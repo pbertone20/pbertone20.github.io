@@ -1,58 +1,79 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const Header = () => {
-  const [typedName, setTypedName] = useState('');
-  const name = "Peter Bertone";
-  let index = 0;
+const useTypewriter = (text) => {
+  const [typedText, setTypedText] = useState('');
+  const typingIndex = useRef(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (index <= name.length) {
-        setTypedName(name.substring(0, index));
-        index++;
+      if (typingIndex.current < text.length) {
+        setTypedText(text.substring(0, typingIndex.current + 1));
+        typingIndex.current++;
       }
-    }, 200);
+    }, 250);
 
     return () => clearInterval(interval);
-  }, [index]);
+  }, [text]);
+
+  return typedText;
+};
+
+const Header = () => {
+  const name = "Peter Bertone";
+  const typedName = useTypewriter(name);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="navbar p-4 bg-purple-800 text-black shadow-lg flex justify-between items-center">
-      <div className="navbar-start" onClick={() => { window.location.href="/" }}>
-        <h2 className="header text-4xl font-bold">
+    <header className="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-purple-800 to-indigo-900 text-white shadow-lg">
+      <div className="container mx-auto px-4 py-6 flex justify-between items-center">
+        <h1 className="text-3xl font-bold">
           <span>{typedName}</span>
-          <span className='caret-blink'>|</span>
-        </h2>
-      </div>
-      <div className="navbar-end relative">
-        <div className="dropdown absolute right-0">
-          <div tabIndex={0} role="button" className="transition ease-in-out delay-150  hover:transition-colors duration-200 hover:translate-y-1 hover:scale-110 rounded-xl p-2 duration-300 btn-lg btn-ghost btn-circle ml-20">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-30 w-30"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
+          <span className="caret-blink">|</span>
+        </h1>
+        <button
+          className="lg:hidden text-white focus:outline-none"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {menuOpen ? (
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h7"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
               />
-            </svg>
-          </div>
-          <ul
-            className="menu menu-lg dropdown-content bg-accent rounded-box z-[1] mt-3 w-52 p-2 shadow-2xl right-0"
-            style={{ left: "-calc(100% - 1rem)" }}>
-            <li><Link to="/">About Me</Link></li>
-            <li><Link to="/work-experience">Work Experience</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/extracurriculars">Extracurriculars</Link></li>
-            <li><Link to="/resume">Resume</Link></li>
-            <li><Link to="/wt1-report">Co-op WT1 Report</Link></li>
+            ) : (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            )}
+          </svg>
+        </button>
+        <nav
+          className={`${
+            menuOpen ? "translate-y-0 opacity-100" : "-translate-y-4 opacity-0 rounded-md"
+          } absolute top-full left-0 w-full bg-gradient-to-r from-purple-800 to-indigo-900 lg:w-auto lg:relative lg:bg-transparent lg:opacity-100 lg:translate-y-0 transition-all duration-500 ease-in-out p-2`}
+        >
+          <ul className="flex flex-col lg:flex-row lg:space-x-4 p-4 lg:p-0">
+            <li><Link to="/" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">About</Link></li>
+            <li><Link to="/work-experience" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">Experience</Link></li>
+            <li><Link to="/projects" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">Projects</Link></li>
+            <li><Link to="/extracurriculars" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">Extracurriculars</Link></li>
+            <li><Link to="/resume" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">Resume</Link></li>
+            <li><Link to="/wt1-report" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">WT1</Link></li>
+            <li><Link to="/wt2-report" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">WT2</Link></li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
   );
