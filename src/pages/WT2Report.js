@@ -1,48 +1,39 @@
 import React from 'react';
 import PrinterTwo from '../assets/Printer-02.jpg';
 import Nameplate from '../assets/Nameplate-02.jpg';
+import SOE_Building from '../assets/SOE-Building.png'
 
 const WT2Report = () => {
   return (
     <div className="container mx-auto py-16 px-4 mt-10 bg-base-200">
       <h1 className="text-3xl font-bold mb-6 text-center">Co-op Work Term 2 Report</h1>
       <section className="space-y-8">
-      <div className="bg-base-300 p-5 rounded-xl flex flex-col md:flex-row">
-        <div className="md:w-1/2 flex justify-left items-center mt-5 md:mt-0">
-          <div
-            style={{
-              width: '550px', // Desired smaller width
-              height: '550px', // Desired smaller height
-              borderRadius: '50%', // Rounds the image completely
-              overflow: 'hidden', // Ensures no content outside the border is visible
-              objectPosition: 'center bottom'
-            }}
-          >
-            <img
-              src={Nameplate}
-              alt="Nameplate"
-              className="w-full h-full object-cover"
-            />
+        <div className="bg-base-300 p-5 rounded-xl flex flex-col md:flex-row">
+          <div className="md:w-1/2 flex justify-left items-center mt-5 md:mt-0">
+            <div className='w-[550px] h-[550px] rounded-[40%] overflow-hidden object-[center_bottom]'>
+              <img
+                src={Nameplate}
+                alt="Nameplate"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+          <div className="md:w-1/2">
+            <h2 className="font-bold text-2xl mb-4">Introduction</h2>
+            <p className="text-lg leading-relaxed">
+              Welcome to my second co-op work term report! Over the past four months of the Fall 2024 semester, I had the incredible opportunity to work in the IT Department of the School of Engineering at the University of Guelph (UofG). 
+              This experience was nothing short of transformative, offering me countless opportunities to grow both professionally and personally. From learning new technical tools to honing my problem-solving and communication skills, I embraced every challenge with enthusiasm and an eagerness to learn. 
+              Managing a mix of daily IT support tasks and larger, impactful projects pushed me out of my comfort zone and gave me a deeper appreciation for the dynamic nature of IT work.
+            </p>
+            <br /> <br />
+            <h2 className="font-bold text-2xl mb-4">Employer Information</h2>
+            <p className="text-lg leading-relaxed">
+              During this work term, I helped solve varying levels of IT related issues in the School of Engineering here at UofG! 
+              Our IT department supports the needs of faculty, staff, and students, providing everything from troubleshooting assistance to developing innovative solutions for the College of Engineering and Physical Sciences' (CEPS) automation initiatives. 
+              Being part of such a fast-paced, collaborative environment gave me a sense of just how vital IT is to every-day tasks and the academic world.
+            </p>
           </div>
         </div>
-        <div className="md:w-1/2">
-          <h2 className="font-bold text-2xl mb-4">Introduction</h2>
-          <p className="text-lg leading-relaxed">
-            Welcome to my second co-op work term report! Over the past four months of the Fall 2024 semester, I had the incredible opportunity to work in the IT Department of the School of Engineering at the University of Guelph (UofG). 
-            This experience was nothing short of transformative, offering me countless opportunities to grow both professionally and personally. From learning new technical tools to honing my problem-solving and communication skills, I embraced every challenge with enthusiasm and an eagerness to learn. 
-            Managing a mix of daily IT support tasks and larger, impactful projects pushed me out of my comfort zone and gave me a deeper appreciation for the dynamic nature of IT work.
-          </p>
-          <br /> <br />
-          <h2 className="font-bold text-2xl mb-4">Employer Information</h2>
-          <p className="text-lg leading-relaxed">
-            During this work term, I helped solve varying levels of IT related issues in the School of Engineering here at UofG! 
-            Our IT department supports the needs of faculty, staff, and students, providing everything from troubleshooting assistance to developing innovative solutions for the College of Engineering and Physical Sciences' (CEPS) automation initiatives. 
-            Being part of such a fast-paced, collaborative environment gave me a sense of just how vital IT is to every-day tasks and the academic world.
-          </p>
-        </div>
-      </div>
-
-
 
         <div className="bg-base-300 p-5 rounded-xl">
           <h2 className="font-bold text-2xl mb-4">Achievements</h2>
@@ -52,9 +43,7 @@ const WT2Report = () => {
             Beyond that, I resolved numerous IT support tickets, each one teaching me something new about troubleshooting and customer service. I also had the unique opportunity to assist in setting up and building a new poster printer for the School of Engineering's Makerspace. 
             These experiences, big and small, shaped my understanding of IT and its impact on people's day-to-day lives.
           </p>
-          <div className="flex justify-center items-center mt-5"> 
-            <img src={PrinterTwo} alt="" className='h-100 mr-2.5 flex-shrink-0 object-contain rounded-full' /> 
-          </div>
+          <img src={PrinterTwo} alt="Poster Printer" className='h-100 mr-2.5 flex-shrink-0 object-contain rounded-xl mt-5' /> 
         </div>
 
         <div className="bg-base-300 p-5 rounded-xl">
@@ -104,15 +93,18 @@ const WT2Report = () => {
           </div>
         </div>
 
-        <div className="bg-base-300 p-5 rounded-xl">
-          <h2 className="font-bold text-2xl mb-4">Conclusion & Acknowledgements</h2>
-          <p className="text-lg leading-relaxed">
-            This co-op term was an unforgettable experience that allowed me to grow in ways I did not expect. The hands-on projects, the collaborative environment, and the mentorship I received made every day a new opportunity to learn. 
-            I am deeply grateful to Bogdan Bunescu - my Manager, Matt Kurylo - IT Specialist, and Matt Kent - our System Administrator, for all their guidance and encouragement, which helped me make the most of this opportunity.
-            As I reflect on this term, I'm excited about how the skills I've developed—whether automating workflows, solving technical issues, or communicating effectively—will shape my future. 
-            This experience has inspired me to continue seeking challenges that push me to learn and grow, and I couldn't be more thankful for the chance to contribute to the IT Department's mission.
-          </p>
-        </div>
+        <div className='bg-base-300 p-5 rounded-xl flex flex-col'>
+          <div>
+            <h2 className="font-bold text-2xl mb-4">Conclusion & Acknowledgements</h2>
+            <p className="text-lg leading-relaxed">
+              This co-op term was an unforgettable experience that allowed me to grow in ways I did not expect. The hands-on projects, the collaborative environment, and the mentorship I received made every day a new opportunity to learn. 
+              I am deeply grateful to Bogdan Bunescu - my Manager, Matt Kurylo - IT Specialist, and Matt Kent - our System Administrator, for all their guidance and encouragement, which helped me make the most of this opportunity.
+              As I reflect on this term, I'm excited about how the skills I've developed—whether automating workflows, solving technical issues, or communicating effectively—will shape my future. 
+              This experience has inspired me to continue seeking challenges that push me to learn and grow, and I couldn't be more thankful for the chance to contribute to the IT Department's mission.
+            </p>
+          </div>
+          <img src={SOE_Building} alt="Poster Printer" className='h-100 mr-2.5 flex-shrink-0 object-contain rounded-xl mt-5' />
+        </div> 
       </section>
     </div>
   );
