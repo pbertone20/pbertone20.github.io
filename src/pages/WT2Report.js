@@ -21,15 +21,15 @@ const WT2Report = () => {
           <div className="md:w-1/2">
             <h2 className="font-bold text-2xl mb-4">Introduction</h2>
             <p className="text-lg leading-relaxed">
-              Welcome to my second co-op work term report! Over the past four months of the Fall 2024 semester, I had the incredible opportunity to work in the IT Department of the School of Engineering at the University of Guelph (UofG). 
-              This experience was nothing short of transformative, offering me countless opportunities to grow both professionally and personally. From learning new technical tools to honing my problem-solving and communication skills, I embraced every challenge with enthusiasm and an eagerness to learn. 
-              Managing a mix of daily IT support tasks and larger, impactful projects pushed me out of my comfort zone and gave me a deeper appreciation for the dynamic nature of IT work.
+              Welcome to my second co-op work term report! Over the past four months of the Fall 2024 semester, I had the remarkable opportunity to work in the IT Department of the School of Engineering at the University of Guelph (UofG). 
+              This experience was nothing short of amazing, offering me countless opportunities to grow both personally and professionally. From learning new tools to sharpening my problem-solving and communication skills, I took on every challenge with an eagerness to learn. 
+              Managing a both daily IT support tasks and larger, impactful projects, pushed me out of my comfort zone and gave me a deeper appreciation for the world of IT.
             </p>
             <br /> <br />
             <h2 className="font-bold text-2xl mb-4">Employer Information</h2>
             <p className="text-lg leading-relaxed">
-              During this work term, I helped solve varying levels of IT related issues in the School of Engineering here at UofG! 
-              Our IT department supports the needs of faculty, staff, and students, providing everything from troubleshooting assistance to developing innovative solutions for the College of Engineering and Physical Sciences' (CEPS) automation initiatives. 
+              During this work term, I helped solve varying levels of IT related issues in the School of Engineering under the guidance of Bogdan Bunescu - my Manager, Matt Kurylo - IT Specialist, and Matt Kent - our System Administrator.
+              Our IT department supports faculty, staff, and students, providing everything from troubleshooting assistance to developing creative IT solutions for other departments here at the University of Guelph. 
               Being part of such a fast-paced, collaborative environment gave me a sense of just how vital IT is to every-day tasks and the academic world.
             </p>
           </div>
@@ -97,9 +97,9 @@ const WT2Report = () => {
           <div>
             <h2 className="font-bold text-2xl mb-4">Conclusion & Acknowledgements</h2>
             <p className="text-lg leading-relaxed">
-              This co-op term was an unforgettable experience that allowed me to grow in ways I did not expect. The hands-on projects, the collaborative environment, and the mentorship I received made every day a new opportunity to learn. 
-              I am deeply grateful to Bogdan Bunescu - my Manager, Matt Kurylo - IT Specialist, and Matt Kent - our System Administrator, for all their guidance and encouragement, which helped me make the most of this opportunity.
-              As I reflect on this term, I'm excited about how the skills I've developed—whether automating workflows, solving technical issues, or communicating effectively—will shape my future. 
+              This co-op term was an unforgettable experience that allowed me to grow in ways I did not expect. The hands-on projects, the collaborative environment, and the mentorship I received made every day an opportunity to learn. 
+              I am deeply grateful to Bogdan Bunescu, Matt Kurylo, and Matt Kent, for all their assistance and encouragement, which helped me make the most of this opportunity.
+              As I reflect on this work term, I'm excited about how the skills I've developed — whether automating workflows, solving technical issues, or communicating effectively — will shape my future. 
               This experience has inspired me to continue seeking challenges that push me to learn and grow, and I couldn't be more thankful for the chance to contribute to the IT Department's mission.
             </p>
           </div>
