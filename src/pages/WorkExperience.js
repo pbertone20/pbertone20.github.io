@@ -34,7 +34,7 @@ const WorkExperience = () => {
         <div className="bg-base-300 rounded-xl p-5 flex flex-col lg:flex-row lg:items-center lg:gap-8">
           <div className="lg:w-2/3 space-y-6">
             <div>
-              <p className="text-xl font-semibold">Content Developer Co-op</p>
+              <p className="text-xl font-semibold">Software Developer Co-op</p>
               <p className="text-md">
                 School of Computer Science - University of Guelph
                 <br />
