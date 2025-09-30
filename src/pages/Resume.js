@@ -6,7 +6,7 @@ const Resume = () => {
       <h2 className="text-3xl font-bold mb-4 text-center">Resume</h2>
       <div className="flex justify-center bg-base-200">
         <iframe 
-          src="https://drive.google.com/file/d/1w6YwqcFDyR4IGZS4YNTOhnfoljJPtZAr/preview?usp=sharing" 
+          src="https://drive.google.com/file/d/1CynZcjPiJ6_TeC1L5xqAqv9dNszzyY0s/preview?usp=sharing" 
           title="Resume" 
           className="w-full max-w-4xl h-[80vh]" 
           frameBorder="0" 

@@ -20,10 +20,10 @@ const WorkExperience = () => {
                 Guelph, ON · In-person
               </p>
               <ul className="list-disc list-inside mt-2 space-y-2 bullet-list">
-                <li>Provided technical support for enterprise-level hardware and software across Windows, Linux, and macOS environments, utilizing the Request Tracker ticketing system to diagnose, document, and resolve technical issues.</li>
-                <li>Configured users, groups, and roles in Active Directory, managing access, control, and permissions.</li>
-                <li>Used MECM and GHOST to image computers for new staff and resolve Windows operating system issues while managing multiple tasks proactively.</li>
-                <li>Developed Microsoft PowerAutomate scripts to optimize Microsoft Form workflows, leveraging PowerAutomate plugins to enhance the functionality, efficiency, and user experience of the CEPS Media Equipment checkout system.</li>
+                <li>Provided technical support for enterprise-level hardware and software across Windows, Linux, and macOS environments.</li>
+                <li>Configured user groups in Active Directory, managing the permissions of over 200 staff and faculty, & 3000 students.</li>
+                <li>Developed the CEPS Media Equipment management system using Microsoft PowerAutomate.</li>
+                <li>Leveraged PowerAutomate plugins to enhance the functionality, and efficiency, of the CEPS Media Equipment Booking system, which now supports over 4200 students.</li>
               </ul>
             </div>
           </div>
@@ -43,10 +43,9 @@ const WorkExperience = () => {
                 Guelph, ON · Hybrid
               </p>
               <ul className="list-disc list-inside mt-2 space-y-2 bullet-list">
-                <li>Developed a music live-streaming platform for K-Pop artists using React.js, Node.js, Tailwind CSS & DaisyUI, Firebase, and APIs from YouTube.</li>
-                <li>Analyzed and implemented project requirements, focusing on creating engaging and interactive user interfaces.</li>
-                <li>Implemented user tracking to monitor interactions and behaviors, providing data for Shan Yun Kuo's PhD research into tailored live-streaming platforms.</li>
-                <li>Utilized Trello’s Kanban board to manage tasks and deadlines, regularly documented progress for future reference.</li>
+                <li>Developed a live-streaming platform using Node.js, Express.js, React.js, Firebase, and APIs from YouTube and Spotify.</li>
+                <li>Implemented user tracking to monitor interactions and behaviors, providing data for Shan Yun Kuo’s PhD research into tailored live-streaming platforms.</li>
+                <li>Analyzed and implemented project requirements using Agile methodologies, documenting progress for future developers, while utilizing Trello’s Kanban board to manage tasks and deadlines, enhancing project efficiency and organization</li>
               </ul>
             </div>
           </div>

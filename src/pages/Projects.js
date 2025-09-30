@@ -18,9 +18,10 @@ const Projects = () => {
             <p className="text-md">2024</p>
           </div>
           <ul className="list-disc list-inside mt-2 space-y-2 bullet-list">
-            <li>Utilized C, Python, SQLite, JavaScript, HTML, CSS, SVG images, and jQuery to develop a billiards pool game.</li>
-            <li>Kinematics calculations are done on the C back-end and saved to the SQLite database, via a RESTful python web server.</li>
-            <li>The web server communicates data to the browser to allow for a seamless 2-player billiards experience!</li>
+            <li>Developed a multiplayer billiards game with real-time collision physics using a C back-end.</li>
+            <li>Integrated SWIG for seamless communication between C and Python codebases.</li>
+            <li>Created a responsive web front-end with Javascript, jQuery, HTML, and CSS including real-time animations using SVG objects.</li>
+            <li>Implemented RESTful APIs using Python to communicate with a SQLite database.</li>
           </ul>
           <div className="flex justify-center mt-4">
             <img src={TableOne} alt="Table One" className="h-100 w-40 rounded-lg mr-2" />
@@ -55,12 +56,12 @@ const Projects = () => {
           <div className="flex flex-col space-y-2">
             <p className="text-xl font-semibold">Typing Speed Test Website</p>
             <p className="text-md">2023 - 2024</p>
-            <a href="https://peterbertone.com/Typing-Test-Website/" className="text-blue-500 underline hover:text-blue-700 transition-colors duration-200">Try it out here!</a>
+            <a href="https://peterbertone.com/Typing-Test-Website/" className="text-blue-500 underline hover:text-blue-700 transition-colors duration-200">https://peterbertone.com/Typing-Test-Website/</a>
           </div>
           <ul className="list-disc list-inside mt-2 space-y-2 bullet-list">
-            <li>Successfully developed a responsive web application with a user-friendly interface to measure typing speed and accuracy.</li>
-            <li>Implemented the front-end using HTML, CSS, and JavaScript, with mobile compatibility.</li>
-            <li>Integrated Firebase for user authentication and with plans to add a Firestore database leaderboard, allowing users to sign in and track their progress over time.</li>
+            <li>Designed a responsive typing test web application to calculate typing speed in real-time.</li>
+            <li>Implemented user authentication with Firebase; User scores are then saved to a Firestore database.</li>
+            <li>Used Javascript and a quote generator API to provide dynamic test sentences for each session.</li>
           </ul>
           <div className="flex justify-center mt-4"> 
             <img src={TypingTestWebsite} alt="Typing Speed Test Website Screenshot" className="h-60 w-120 rounded-lg" />
