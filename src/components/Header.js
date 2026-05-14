@@ -72,6 +72,7 @@ const Header = () => {
             <li><Link to="/resume" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">Resume</Link></li>
             <li><Link to="/wt1-report" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">WT1</Link></li>
             <li><Link to="/wt2-report" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">WT2</Link></li>
+            <li><Link to="/wt3-report" className="hover:text-purple-400 transition-colors duration-200 ease-in-out">WT3</Link></li>
           </ul>
         </nav>
       </div>
