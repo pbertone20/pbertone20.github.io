@@ -31,7 +31,7 @@ const About = () => {
             This project allowed me to enhance my skills in React.js, Node.js, and other technologies. Looking forward, I'm eager to continue learning and growing as a software engineer!
           </p>
           <p className="text-lg leading-relaxed">
-            Feel free to read my latest <a href='/#/wt2-report/' className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Work Term Report</a>
+            Feel free to read my latest <a href='/#/wt3-report/' className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Work Term Report</a>
           </p>
         </div>
       </div>
