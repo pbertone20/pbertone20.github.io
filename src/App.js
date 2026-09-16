@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import WT1Report from './pages/WT1Report';
 import WT2Report from './pages/WT2Report';
 import WT3Report from './pages/WT3Report';
+import WT4Report from './pages/WT4Report';
 import About from './pages/About';
 import WorkExperience from './pages/WorkExperience';
 import Projects from './pages/Projects';
@@ -16,6 +17,7 @@ const App = () => {
     <div>
       <Header/>
       <Routes>
+        <Route path="/wt4-report" element={<WT4Report />} />
         <Route path="/wt3-report" element={<WT3Report />} />
         <Route path="/wt2-report" element={<WT2Report />} />
         <Route path="/wt1-report" element={<WT1Report />} />
