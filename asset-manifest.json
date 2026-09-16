@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.1da8dcd2.css",
-    "main.js": "/static/js/main.0b614c67.js",
+    "main.css": "/static/css/main.17cb5d76.css",
+    "main.js": "/static/js/main.2cceafbd.js",
     "static/media/SOE-Building.png": "/static/media/SOE-Building.3fd1f8698a6db103f991.png",
     "static/media/SOCIS-4.jpg": "/static/media/SOCIS-4.55cd083f4c2ee15bbf0c.jpg",
     "static/media/SOCIS-3.jpg": "/static/media/SOCIS-3.90e84b0702c4ad03fbf0.jpg",
     "static/media/SOCIS-2.jpg": "/static/media/SOCIS-2.55d0af6606e7c19d4a50.jpg",
     "static/media/SOCIS-5.jpg": "/static/media/SOCIS-5.a3b6e3d97369ae86db78.jpg",
+    "static/media/Long-Stick.jpg": "/static/media/Long-Stick.7c8acd62362544498d3f.jpg",
+    "static/media/Gordie-Howe.jpg": "/static/media/Gordie-Howe.bfaad0e841216705fbed.jpg",
     "static/media/Printer-02.jpg": "/static/media/Printer-02.2831c71a1101594b08f5.jpg",
     "static/media/Nameplate-02.jpg": "/static/media/Nameplate-02.8bb12abe5ee81880a311.jpg",
     "static/media/Pfp.jpg": "/static/media/Pfp.5ffb13deb90189a0a120.jpg",
+    "static/media/Farewell-Cake.jpg": "/static/media/Farewell-Cake.b56d15ba559096a3138f.jpg",
     "static/media/GDSC-1.jpg": "/static/media/GDSC-1.7f7499dd4004495a5fd0.jpg",
+    "static/media/Cowboy-Petah.jpg": "/static/media/Cowboy-Petah.ad791f628b1916914403.jpg",
     "static/media/research-2.jpg": "/static/media/research-2.080c6f2397b57a671c67.jpg",
     "static/media/cavenders.jpeg": "/static/media/cavenders.d7933f1e408e981e95d3.jpeg",
     "static/media/kpop-class-diagram.png": "/static/media/kpop-class-diagram.21193a0107e2e29939e5.png",
@@ -30,18 +34,18 @@
     "static/media/plane-3.jpeg": "/static/media/plane-3.59a9a7633549038f71d1.jpeg",
     "static/media/GDSC-2.jpg": "/static/media/GDSC-2.0b460e6e5312e371461b.jpg",
     "static/media/phone.svg": "/static/media/phone.74359848220089b80029b261bd64a121.svg",
-    "static/media/table00.svg": "/static/media/table00.af6adc83ee9a1b94927817c5fb1507f5.svg",
-    "static/media/table10.svg": "/static/media/table10.428c8c9d37ed6c51e7d90267fa63fe07.svg",
-    "static/media/table03.svg": "/static/media/table03.b58d6284addaabf217c2c1478cc828a8.svg",
-    "static/media/table06.svg": "/static/media/table06.20edd6406eeafbc369c4f5b3bb06aad2.svg",
-    "static/media/table08.svg": "/static/media/table08.2d6f7de93c1bd69c6496fdaf1595d956.svg",
     "static/media/email.svg": "/static/media/email.2cf8522ee1c8fe6b8a5e61d04c0754a6.svg",
+    "static/media/table00.svg": "/static/media/table00.a4e8ad1156c6f07ae4d30649cada4596.svg",
+    "static/media/table10.svg": "/static/media/table10.92e3f18226d372ded110f34e5e1694b7.svg",
+    "static/media/table03.svg": "/static/media/table03.3aeea82eb9ec65fa7c39d95d9172229e.svg",
+    "static/media/table06.svg": "/static/media/table06.42afa973df472920ce7beed8fa1c4f2a.svg",
+    "static/media/table08.svg": "/static/media/table08.d6d90f77ec2605d6dbd0027599921f6f.svg",
     "index.html": "/index.html",
-    "main.1da8dcd2.css.map": "/static/css/main.1da8dcd2.css.map",
-    "main.0b614c67.js.map": "/static/js/main.0b614c67.js.map"
+    "main.17cb5d76.css.map": "/static/css/main.17cb5d76.css.map",
+    "main.2cceafbd.js.map": "/static/js/main.2cceafbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.1da8dcd2.css",
-    "static/js/main.0b614c67.js"
+    "static/css/main.17cb5d76.css",
+    "static/js/main.2cceafbd.js"
   ]
 }
